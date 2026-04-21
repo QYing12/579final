@@ -1,10 +1,3 @@
-const addNumbers = (first, second) => {
-  return first + second;
-}
-
-if (typeof module !== 'undefined') {
-  module.exports = {
-    addNumbers
-  }
-}
-
+document.querySelector("#myButton").addEventListener("click", function() {
+  document.querySelector("#output").textContent = "Hello, Qiying!";
+});
